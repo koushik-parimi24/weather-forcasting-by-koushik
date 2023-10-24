@@ -5,15 +5,13 @@
     box-sizing: border-box;
 }
 .card{
-    width: 90%;
-    max-width: 470px;
-    border-radius: 35px;
-    background-image: linear-gradient(to right, #00b09b, #96c93d);
-    color: #30e8df;
-    margin: 100px auto 0;
-    text-align: center;
-    padding: 35px ;
-    animation: forwards;
+    /* From https://css.glass */
+background: rgba(73, 24, 213, 1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(19.4px);
+-webkit-backdrop-filter: blur(19.4px);
+border: 1px solid rgba(73, 24, 213, 0.65);
 }
 .Search{
     width: 100%;
